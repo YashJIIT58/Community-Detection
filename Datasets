@@ -1,0 +1,53 @@
+## 📊 Datasets
+
+This project uses network-based datasets where nodes represent users and edges represent connections between them. These datasets help analyze how communities form within social networks.
+
+
+### 🥋 1. Zachary Karate Club Dataset
+
+- A classic social network dataset widely used for testing community detection algorithms  
+- Represents friendships between members of a karate club  
+- The network eventually split into two groups due to a conflict  
+
+**Details:**
+- Nodes: 34  
+- Edges: 78  
+- Type: Undirected graph  
+
+**Usage in Project:**
+- Used as a benchmark dataset  
+- Helps validate correctness of algorithms  
+- Suitable for visualization and small-scale testing  
+
+**Source:**
+- Available directly in NetworkX:
+```python
+nx.karate_club_graph()
+
+## 📄 Facebook Dataset Format
+
+The Facebook dataset used in this project is provided as an **edge list**, where each line represents a connection (friendship) between two users.
+
+
+### 📌 Format Type
+
+- Plain text file  
+- Space-separated values  
+- Each row represents an **undirected edge**
+
+
+### 📌 Structure
+
+- `node1` → Source user ID  
+- `node2` → Target user ID  
+
+
+### 📌 Example
+
+```txt id="fbex01"
+0 1
+0 2
+0 3
+1 2
+2 3
+3 4
