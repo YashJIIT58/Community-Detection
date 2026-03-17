@@ -51,3 +51,16 @@ The Facebook dataset used in this project is provided as an **edge list**, where
 1 2
 2 3
 3 4
+
+
+
+Loaded In Code: 
+
+import networkx as nx
+
+G = nx.read_edgelist(
+    "datasets/facebook_combined.txt",
+    nodetype=int,
+    create_using=nx.Graph()
+)
+
