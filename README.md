@@ -2,7 +2,6 @@
 
 This project focuses on detecting communities in social networks using graph-based algorithms. It analyzes how nodes (users) form clusters based on their connections and evaluates different approaches for identifying these communities.
 
----
 
 ## 🔍 Algorithms Implemented
 
@@ -17,7 +16,6 @@ This project focuses on detecting communities in social networks using graph-bas
 - Produces hierarchical community structures
 - Computationally expensive for large datasets
 
----
 
 ## 📊 Datasets Used
 
@@ -29,7 +27,6 @@ This project focuses on detecting communities in social networks using graph-bas
   - Real-world large-scale network
   - Sampled subgraph used for computation
 
----
 
 ## ⚙️ Features
 
@@ -47,7 +44,6 @@ This project focuses on detecting communities in social networks using graph-bas
 - Export results to CSV
 - Compare execution time and performance
 
----
 
 ## 🛠️ Tech Stack
 
