@@ -1,6 +1,6 @@
 # 📘 Community Detection in Social Networks
 
-This project focuses on detecting communities in social networks using graph-based algorithms. It analyzes how nodes (users) form clusters based on their connections and evaluates different approaches for identifying these communities.
+This project focuses on detecting communities in social networks using graph-based algorithms. It analyzes how nodes form clusters based on their connections and evaluates different approaches for identifying these communities.
 
 
 ## 🔍 Algorithms Implemented
