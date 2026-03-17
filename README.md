@@ -52,7 +52,3 @@ This project focuses on detecting communities in social networks using graph-bas
 - Pandas
 - Matplotlib
 - python-louvain
-
----
-
-## 📁 Project Structure
