@@ -5,7 +5,7 @@ This project focuses on detecting communities in social networks using graph-bas
 
 ## 🔍 Algorithms Implemented
 
-### 1. Louvain Method
+### 1. Louvain Method 
 - Based on modularity optimization
 - Efficient and scalable for large networks
 - Produces high-quality community structures
